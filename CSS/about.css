@@ -1,0 +1,54 @@
+main > div {
+    background-color:#3e1c52;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+main > div > h2 {
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+}
+
+a {
+  font-size: 18px;
+}
+
+main > div > p {
+    font-size: 16px;
+}
+
+#container2 {
+  grid-area: area2;
+}
+
+#container3 {
+  grid-area: area3;
+}
+
+main {
+    background-color: #171717;
+    display: grid;
+    grid-template-areas:
+    '.'
+    'area2'
+    'area2'
+    'area3'
+    'area3'
+    'area3';
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+
+  main {
+    grid-template-areas:
+    '.     area3 '
+    'area2 area3 '
+    'area2 area3 ';
+  }
+
+}
