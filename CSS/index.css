@@ -15,7 +15,7 @@ aside a {
     display: block;
     padding: 5px 0;
     text-decoration: none;
-    width: 100%;
+    width: 65%;
  }
 
  aside a:hover {
@@ -96,4 +96,5 @@ aside a {
     font-size: 16px;
     width: 100%;
     position: relative;
+
  }
